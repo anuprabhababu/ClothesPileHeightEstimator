@@ -1,0 +1,108 @@
+/* Basic body styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Headings */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* File input and buttons */
+input[type="file"],
+input[type="number"],
+button {
+  font-size: 1rem;
+  padding: 8px 12px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+button:disabled {
+  background-color: #a0a0a0;
+  cursor: not-allowed;
+}
+
+button:not(:disabled):hover {
+  background-color: #0056b3;
+}
+
+/* Canvas styling */
+#canvas {
+  border: 1px solid #000;
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+  cursor: crosshair;
+}
+
+/* Message styling */
+#message {
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+  min-height: 24px;
+}
+
+/* History section */
+#history {
+  margin-top: 40px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#history h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#history table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+#history th, #history td {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+canvas {
+  max-width: 600px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border: 1px solid #000;
+  cursor: crosshair;
+}
+
+
+#history th {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Chart canvas styling */
+#historyChart {
+  display: block;
+  margin: 30px auto 0 auto;
+  max-width: 700px;
+  width: 100%;
+  height: 300px;
+}
